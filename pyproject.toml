@@ -1,0 +1,15 @@
+[project]
+name = "avatar-graph-comfyui"
+description = "Include nodes for sam + bpy operation, that allows workflow creations for generative 2d character rig."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["torchvision", "numpy", "opencv-python", "opencv-contrib-python", "einops", "bpy==3.6.0", "segment-anything", "tqdm", "python-dotenv", "mediapipe", "# -e git+https://github.com/facebookresearch/segment-anything.git#egg=segment_anything"]
+
+[project.urls]
+Repository = "https://github.com/avatechai/avatar-graph-comfyui"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "avatar-graph-comfyui"
+Icon = ""
